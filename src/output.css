@@ -555,10 +555,7 @@ video {
 }
 
 
-.section { 
-  animation: mover-izquierda-derecha 2s 1;
-  
-}
+
 
 @keyframes mover-izquierda-derecha {
   0% {
@@ -580,7 +577,7 @@ video {
   }
 }
 
-.animacion-1{ 
+.animacion-1 { 
   view-timeline-name: --image; 
   view-timeline-axis: block;
 
@@ -588,8 +585,8 @@ video {
   animation-name: show;
 
   animation-fill-mode: both;
-  animation-range: entry 15% cover 40%;
-  transition: 1s;
+  animation-range: entry 15% cover 50%;
+ 
 } 
 
 .efecto a:hover { 
