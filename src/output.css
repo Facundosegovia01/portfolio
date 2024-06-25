@@ -586,7 +586,7 @@ video {
 
   animation-fill-mode: both;
   animation-range: entry 20% cover 40%;
-
+transition: 3s;
 } 
 
 .efecto a:hover { 
