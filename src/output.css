@@ -585,7 +585,7 @@ video {
   animation-name: show;
 
   animation-fill-mode: both;
-  animation-range: entry 15% cover 50%;
+  animation-range: entry 20% cover 40%;
 
 } 
 
