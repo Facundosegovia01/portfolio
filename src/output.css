@@ -589,6 +589,21 @@ video {
 transition: 3s;
 } 
 
+
+@media screen and (max-width: 768px) {
+  .animacion-1 { 
+    view-timeline-name: --image; 
+    view-timeline-axis: block;
+  
+    animation-timeline: --image;
+    animation-name: show;
+  
+    animation-fill-mode: both;
+    animation-range: entry 20% cover 40%;
+  transition: 3s;
+  } 
+  
+}
 .efecto a:hover { 
   transform: scale(1.1);
   transition: 0.5s;
@@ -613,9 +628,9 @@ font-size: 20px;
   white-space: nowrap;
   text-align: center;
   border-right: 4px solid;
-  width: 20ch;
+  width: 19.5ch;
 
-  animation: typing 1.5s steps(20 ), blink .5s infinite step-end alternate;
+  animation: typing 1.5s steps(20), blink .5s infinite step-end alternate;
   overflow: hidden;
 
 }
