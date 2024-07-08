@@ -585,11 +585,9 @@ video {
   animation-name: show;
 
   animation-fill-mode: both;
-  animation-range: entry 20% cover 40%;
+  animation-range: entry 5% cover 30%;
 transition: 3s;
 } 
-
-
 @media screen and (max-width: 768px) {
   .animacion-1 { 
     view-timeline-name: --image; 
